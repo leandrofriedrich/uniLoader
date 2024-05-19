@@ -1,4 +1,5 @@
 lib-$(CONFIG_APPLE_N61AP) += apple/board-n61ap.o
+lib-$(CONFIG_HUAWEI_ALICE) += huawei/board-alice.o
 lib-$(CONFIG_SAMSUNG_C1S) += samsung/board-c1s.o
 lib-$(CONFIG_SAMSUNG_NOBLELTE) += samsung/board-noblelte.o
 lib-$(CONFIG_SAMSUNG_JACKPOTLTE) += samsung/board-jackpotlte.o

@@ -10,7 +10,11 @@ config QUALCOMM
 	bool
 	default n
 
- choice
+config HISI
+	bool
+	default n
+
+choice
 	prompt "SoC Support"
 
 	config APPLE_T7000
@@ -68,6 +72,13 @@ config QUALCOMM
 		select EXYNOS
 		help
 		  Say Y if your device uses Samsung Exynos990 SoC
+
+	config HISI_HI6220
+		bool "Support for HiSilicon Kirin 620 (Hi6220)"
+		default n
+		select HISI
+		help 
+		  Say Y if your device uses this HiSi SoC
 
 	config QC32_8916
 		bool "Support for QUALCOMM MSM8916"

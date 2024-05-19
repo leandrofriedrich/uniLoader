@@ -1,0 +1,46 @@
+#
+# Automatically generated make config: don't edit
+# uniLoader Configuration
+#
+
+#
+# Building options
+#
+CONFIG_CROSS_COMPILE="aarch64-linux-gnu-"
+CONFIG_EMBED_LINUX=y
+CONFIG_KERNEL_PATH="blob/Image"
+CONFIG_DT_PATH="blob/dtb"
+
+#
+# Libraries
+#
+CONFIG_SIMPLE_FB=y
+# CONFIG_APPLE_SILICON is not set
+# CONFIG_EXYNOS is not set
+# CONFIG_QUALCOMM is not set
+CONFIG_HISI=y
+# CONFIG_APPLE_T7000 is not set
+# CONFIG_APPLE_T8010 is not set
+# CONFIG_EXYNOS_7420 is not set
+# CONFIG_EXYNOS_7570 is not set
+# CONFIG_EXYNOS_7885 is not set
+# CONFIG_EXYNOS_8895 is not set
+# CONFIG_EXYNOS_9810 is not set
+# CONFIG_EXYNOS_990 is not set
+CONFIG_HISI_HI6220=y
+# CONFIG_QC32_8916 is not set
+
+#
+# Device Support
+#
+CONFIG_HUAWEI_ALICE=y
+
+#
+# Device Specific Addresses
+#
+CONFIG_PAYLOAD_ENTRY=0x007480000
+CONFIG_FRAMEBUFFER_BASE=0x03e700000
+CONFIG_FRAMEBUFFER_WIDTH=720
+CONFIG_FRAMEBUFFER_HEIGHT=1280
+CONFIG_FRAMEBUFFER_STRIDE=4
+# CONFIG_FRAMEBUFFER_BGRA is not set
